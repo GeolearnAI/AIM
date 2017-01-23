@@ -909,6 +909,7 @@ body.pace-white .pace .pace-progress {
 .jumbotron h1 {
   font-size: 44px;
   color: #2c2c2c;
+  font-weight: 600;
 }
 .pace .pace-progress {
   background-color: #6d5cae;
@@ -1719,18 +1720,18 @@ h6.block {
   padding-bottom: 10px;
 }
 .block-title {
-  font-family: 'Montserrat';
-  font-weight: 400;
+  /*font-family: 'Montserrat';*/
+  font-weight: 100;
   font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 0.03em;*/
 }
 /* Lins and Others
 ------------------------------------
 */
 a {
   text-shadow: none !important;
-  color: #3a8fc8;
+  color: #03675e;
   transition: color 0.1s linear 0s, background-color 0.1s linear 0s, opacity 0.2s linear 0s !important;
 }
 a:focus,
@@ -1744,6 +1745,7 @@ a:hover,
 a:active {
   outline: 0 !important;
   text-decoration: none;
+  font-weight: 600;
 }
 br {
   line-height: normal;
@@ -2291,7 +2293,7 @@ hr.dotted {
 */
 @media (max-width: 1400px) {
   .jumbotron h1 {
-    line-height: 55px;
+    line-height: 65px;
   }
   h1 {
     font-size: 33px;
