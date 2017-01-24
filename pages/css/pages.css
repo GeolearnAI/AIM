@@ -2392,31 +2392,31 @@ button:focus {
 Alternate buttons
 --------------------------------------------------
 */
-.btn-custom {
+.btn-custom1 {
   background-color: #fbb040;
   border-color: #fbb040;
   color:#fff;
 }
-.btn-custom:hover,
-.btn-custom:focus,
-.btn-custom:active,
-.btn-custom.active {
+.btn-custom1:hover,
+.btn-custom1:focus,
+.btn-custom1:active,
+.btn-custom1.active {
   background-color: #faa627;
   border-color: #fa9b0e;
   color:#fff;
 }
-.btn-custom.disabled:hover,
-.btn-custom.disabled:focus,
-.btn-custom.disabled:active,
-.btn-custom.disabled.active,
-.btn-custom[disabled]:hover,
-.btn-custom[disabled]:focus,
-.btn-custom[disabled]:active,
-.btn-custom[disabled].active,
-fieldset[disabled] .btn-custom:hover,
-fieldset[disabled] .btn-custom:focus,
-fieldset[disabled] .btn-custom:active,
-fieldset[disabled] .btn-custom.active {
+.btn-custom1.disabled:hover,
+.btn-custom1.disabled:focus,
+.btn-custom1.disabled:active,
+.btn-custom1.disabled.active,
+.btn-custom1[disabled]:hover,
+.btn-custom1[disabled]:focus,
+.btn-custom1[disabled]:active,
+.btn-custom1[disabled].active,
+fieldset[disabled] .btn-custom1:hover,
+fieldset[disabled] .btn-custom1:focus,
+fieldset[disabled] .btn-custom1:active,
+fieldset[disabled] .btn-custom1.active {
   background-color: #fbb040;
   border-color: #fbb040;
   color:#fff
