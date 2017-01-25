@@ -907,10 +907,10 @@ body.pace-white .pace .pace-progress {
   height: 600px;
 }
 .jumbotron h1 {
-  font-size: 55px;
+  font-family: 'Oswald';
+  line-height: 80px;
+  font-size: 80px;
   color: #2c2c2c;
-  font-weight: 600;
-  text-align: left;
 }
 .pace .pace-progress {
   background-color: #6d5cae;
@@ -1093,12 +1093,12 @@ body.pace-white .pace .pace-progress {
   visibility: hidden;
 }
 .swiper-pagination-bullet {
-  width: 6px;
-  height: 6px;
+  width: 12px;
+  height: 12px;
   margin: 0 3px;
 }
 .swiper-pagination-bullet-active {
-  background: #2c2c2c;
+  background: #1C1C1C;
 }
 .swiper-pagination.swiper-pagination-light .swiper-pagination-bullet,
 .swiper-pagination.swiper-pagination-light .swiper-pagination-bullet-active {
@@ -1106,7 +1106,7 @@ body.pace-white .pace .pace-progress {
 }
 .swiper-pagination.swiper-pagination-dark .swiper-pagination-bullet,
 .swiper-pagination.swiper-pagination-dark .swiper-pagination-bullet-active {
-  background: #2c2c2c;
+  background: #1C1C1C;
 }
 .swiper-navigation {
   width: 47px;
@@ -1634,18 +1634,22 @@ body.pace-white .pace .pace-progress {
 --------------------------------------------------
 */
 /* To Load Hinted Fonts for Windows */
-@font-face {
+/*@font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v5/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(http://fonts.gstatic.com/s/montserrat/v5/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff'), url('../fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+  src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v5/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(https://fonts.gstatic.com/s/montserrat/v5/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff'), url('../fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v5/IQHow_FEYlDC4Gzy_m8fcmaVI6zN22yiurzcBKxPjFE.woff2) format('woff2'), url(http://fonts.gstatic.com/s/montserrat/v5/IQHow_FEYlDC4Gzy_m8fcnbFhgvWbfSbdVg11QabG8w.woff) format('woff'), url('../fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
-}
+  src: local('Montserrat-Bold'),
+  url(http://fonts.gstatic.com/s/montserrat/v5/IQHow_FEYlDC4Gzy_m8fcmaVI6zN22yiurzcBKxPjFE.woff2) format('woff2'), url(http://fonts.gstatic.com/s/montserrat/v5/IQHow_FEYlDC4Gzy_m8fcnbFhgvWbfSbdVg11QabG8w.woff) format('woff'), url('../fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+}*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 html {
   font-size: 100%;
   -ms-text-size-adjust: 100%;
@@ -1681,7 +1685,6 @@ h6 {
   color: #2c2c2c;
 }
 h1 {
-  font-family: 'Oswald';
   font-size: 44px;
   line-height: 55px;
   letter-spacing: -0.009em;
@@ -1695,8 +1698,9 @@ h2 {
   line-height: 42px;
 }
 h3 {
-  font-size: 27px;
-  line-height: 40px;
+  font-family: 'Oswald';
+  font-size: 20px;
+  line-height: 20px;
 }
 h4 {
   font-size: 22px;
@@ -1722,18 +1726,18 @@ h6.block {
   padding-bottom: 10px;
 }
 .block-title {
-  /*font-family: 'Montserrat';*/
-  font-weight: 100;
+  font-family: 'Montserrat';
+  font-weight: 400;
   font-size: 15px;
-  /*text-transform: uppercase;*/
-  /*letter-spacing: 0.03em;*/
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 /* Lins and Others
 ------------------------------------
 */
 a {
   text-shadow: none !important;
-  color: #03675e;
+  color: #3a8fc8;
   transition: color 0.1s linear 0s, background-color 0.1s linear 0s, opacity 0.2s linear 0s !important;
 }
 a:focus,
@@ -1747,7 +1751,6 @@ a:hover,
 a:active {
   outline: 0 !important;
   text-decoration: none;
-  font-weight: 600;
 }
 br {
   line-height: normal;
@@ -2295,11 +2298,11 @@ hr.dotted {
 */
 @media (max-width: 1400px) {
   .jumbotron h1 {
-    line-height: 45px;
+    line-height: 55px;
   }
   h1 {
-    font-size: 33px;
-    line-height: 144px;
+    font-size: 44px;
+    line-height: 44px;
     letter-spacing: -0.08px;
   }
   h2 {
@@ -2315,11 +2318,8 @@ hr.dotted {
     line-height: 33.88px;
   }
   h5 {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25.88px;
-    color:#fff;
-    font-family: 'Oswald';
-    text-align: left;
   }
   small,
   .small {
@@ -2397,34 +2397,33 @@ button:focus {
 Alternate buttons
 --------------------------------------------------
 */
-.btn-custom1 {
-  background-color: #fbb040;
-  border-color: #fbb040;
+.btn-custom {
+  background-color: #58595b;
+  border-color: #58595b;
   color:#fff;
 }
-.btn-custom1:hover,
-.btn-custom1:focus,
-.btn-custom1:active,
-.btn-custom1.active {
-  background-color: #faa627;
-  border-color: #fa9b0e;
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background-color: #4b4c4e;
+  border-color: #3f4041;
   color:#fff;
 }
-.btn-custom1.disabled:hover,
-.btn-custom1.disabled:focus,
-.btn-custom1.disabled:active,
-.btn-custom1.disabled.active,
-.btn-custom1[disabled]:hover,
-.btn-custom1[disabled]:focus,
-.btn-custom1[disabled]:active,
-.btn-custom1[disabled].active,
-fieldset[disabled] .btn-custom1:hover,
-fieldset[disabled] .btn-custom1:focus,
-fieldset[disabled] .btn-custom1:active,
-fieldset[disabled] .btn-custom1.active {
-  background-color: #fbb040;
-  border-color: #fbb040;
-  color:#fff
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #58595b;
+  border-color: #58595b;
 }
 
 .btn-black,
@@ -2528,8 +2527,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success,
 .btn-success:focus {
   color: #ffffff;
-  background-color: #fbb040;
-  border-color: #fbb040;
+  background-color: #10cfbd;
+  border-color: #10cfbd;
 }
 .btn-success.active,
 .btn-success:active,
@@ -2537,20 +2536,20 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active:focus,
 .btn-success:active:hover,
 .open .dropdown-toggle.btn-success {
-  background-color: #faa627;
-  border-color: #faa627;
+  background-color: #0da899;
+  border-color: #0da899;
   color: #ffffff;
 }
 .btn-success.hover,
 .btn-success:hover,
 .open .dropdown-toggle.btn-success {
-  background-color: #fbb040;
-  border-color: #fbb040;
+  background-color: #40d9ca;
+  border-color: #40d9ca;
   color: #ffffff;
 }
 .btn-success.active:hover {
-  background: #fbb040;
-  border-color: #fbb040;
+  background: #0eb2a3;
+  border-color: #0eb2a3;
 }
 .btn-success.disabled,
 .btn-success[disabled],
@@ -3296,6 +3295,8 @@ Misc buttons
   cursor: not-allowed;
   opacity: .5;
 }
+
+
 /*------------------------------------------------------------------
 [8. Alerts]
 */
@@ -7277,7 +7278,7 @@ a[href^="http://maps.google.com/maps"] {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.7);
 }
 sup.dollar {
   vertical-align: top;
