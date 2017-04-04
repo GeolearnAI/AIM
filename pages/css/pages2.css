@@ -112,10 +112,10 @@ body.pace-white .pace .pace-progress {
   opacity: 0.8;
 }
 .header.transparent-light .menu > li > a:not(.btn):hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 .header.transparent-light .menu > li > a:not(.btn).active {
-  opacity: 1;
+  opacity: 0.5;
 }
 .header.transparent-light .search-toggle {
   color: #ffffff;
@@ -226,10 +226,10 @@ body.pace-white .pace .pace-progress {
   opacity: 0.8;
 }
 .header.dark .menu > li > a:not(.btn):hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 .header.dark .menu > li > a:not(.btn).active {
-  opacity: 1;
+  opacity: 0.5;
 }
 .header.dark .search-toggle {
   color: #ffffff;
